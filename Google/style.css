@@ -40,6 +40,10 @@ a{
 
 }
 
+#maillogo{
+    border-radius: 50%;
+}
+
 #main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -72,17 +76,46 @@ a{
     justify-self: center;
     align-self: center;
 }
-/*#google-sh{}
+
+#google-shr{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
 }
+
 #rdm-shr{
-    
-}*/
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+}
 #lang{
     grid-area:lang;
     justify-self: center;
+    font-size: small;
 }
 
-
+#langclick
+{
+    color: blue;
+}
 
 #footer
 {
@@ -90,11 +123,12 @@ a{
     position:absolute;
     bottom: 0;
     left:0;
-    right:30px;
+    right: 0px;
     grid-template-columns: 90px 70px 70px 150px 1fr 70px 70px 70px 70px;
     grid-template-rows: 50px;
     grid-template-areas: 
     "ads compagny about howtosearch . infos privacy terms settings";
+    background-color: #efefef;
 }
 
 
