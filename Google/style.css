@@ -130,7 +130,10 @@ a{
     "ads compagny about howtosearch . infos privacy terms settings";
     background-color: #efefef;
 }
-
+#footer a {
+    color: #5f6368;
+    font-size: 14px;
+}
 
 #ad{
     grid-area: ads;
